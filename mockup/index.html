@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>El Sueño Comunista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="phone-frame">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="star">★</span>
+                <span class="app-name">El Sueño Comunista</span>
+            </div>
+            <button class="notification-btn">
+                <span class="notification-icon">🔔</span>
+                <span class="notification-badge">3</span>
+            </button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-content">
+            <!-- Home Screen -->
+            <section class="screen screen-home active" id="screen-home">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Buscar en tu barrio...">
+                    <span class="search-icon">🔍</span>
+                </div>
+
+                <!-- Categories Row -->
+                <div class="categories-row">
+                    <div class="category-item">
+                        <div class="category-icon" style="background: linear-gradient(135deg, #DC2626, #991B1B);">🛠️</div>
+                        <span>Herramientas</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon" style="background: linear-gradient(135deg, #16A34A, #166534);">🥕</div>
+                        <span>Alimentos</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon" style="background: linear-gradient(135deg, #2563EB, #1E40AF);">🚗</div>
+                        <span>Transporte</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon" style="background: linear-gradient(135deg, #9333EA, #7E22CE);">💼</div>
+                        <span>Servicios</span>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-icon" style="background: linear-gradient(135deg, #F59E0B, #D97706);">🆘</div>
+                        <span>Ayuda</span>
+                    </div>
+                </div>
+
+                <!-- Section Title -->
+                <div class="section-header">
+                    <h2>Cerca de ti</h2>
+                    <a href="#" class="see-all">Ver todo</a>
+                </div>
+
+                <!-- Feed Cards -->
+                <div class="feed">
+                    <article class="card">
+                        <div class="card-header">
+                            <img src="https://i.pravatar.cc/100?img=12" alt="Avatar" class="avatar">
+                            <div class="card-info">
+                                <h3>Carlos Martín</h3>
+                                <span class="distance">📍 350m</span>
+                            </div>
+                            <span class="card-badge badge-tools">🛠️</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Taladro percutor Bosch disponible</h4>
+                            <p>Lo presto por el fin de semana. Incluye brocas de varios tamaños.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="time">Hace 2h</span>
+                            <button class="btn-primary">Solicitar</button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header">
+                            <img src="https://i.pravatar.cc/100?img=5" alt="Avatar" class="avatar">
+                            <div class="card-info">
+                                <h3>Ana López</h3>
+                                <span class="distance">📍 120m</span>
+                            </div>
+                            <span class="card-badge badge-food">🥕</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Tomates del huerto urbano</h4>
+                            <p>¡Cosecha abundante! Regalo 2kg de tomates cherry ecológicos.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="time">Hace 45min</span>
+                            <button class="btn-primary">Contactar</button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header">
+                            <img src="https://i.pravatar.cc/100?img=33" alt="Avatar" class="avatar">
+                            <div class="card-info">
+                                <h3>Pedro Sánchez</h3>
+                                <span class="distance">📍 800m</span>
+                            </div>
+                            <span class="card-badge badge-transport">🚗</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>Viaje al Carrefour mañana 10:00</h4>
+                            <p>Voy en coche, tengo 3 plazas libres. Volvemos en 1 hora aprox.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="time">Hace 3h</span>
+                            <button class="btn-primary">Apuntarme</button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header">
+                            <img src="https://i.pravatar.cc/100?img=47" alt="Avatar" class="avatar">
+                            <div class="card-info">
+                                <h3>Laura García</h3>
+                                <span class="distance">📍 200m</span>
+                            </div>
+                            <span class="card-badge badge-help">🆘</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>¿Alguien puede pasear a mi perro?</h4>
+                            <p>Este viernes trabajo hasta tarde. Necesito ayuda de 18:00 a 19:00.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="time">Hace 5h</span>
+                            <button class="btn-primary">Ayudar</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Explore Screen -->
+            <section class="screen screen-explore" id="screen-explore">
+                <h1 class="screen-title">Explorar</h1>
+                
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="¿Qué necesitas?">
+                    <span class="search-icon">🔍</span>
+                </div>
+
+                <div class="categories-grid">
+                    <div class="category-card" style="--accent: #DC2626;">
+                        <div class="category-card-icon">🛠️</div>
+                        <div class="category-card-info">
+                            <h3>Herramientas</h3>
+                            <span>47 disponibles</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #16A34A;">
+                        <div class="category-card-icon">🥕</div>
+                        <div class="category-card-info">
+                            <h3>Alimentos</h3>
+                            <span>23 ofertas</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #2563EB;">
+                        <div class="category-card-icon">🚗</div>
+                        <div class="category-card-info">
+                            <h3>Transporte</h3>
+                            <span>15 viajes</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #9333EA;">
+                        <div class="category-card-icon">💼</div>
+                        <div class="category-card-info">
+                            <h3>Servicios</h3>
+                            <span>32 ofertas</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #F59E0B;">
+                        <div class="category-card-icon">🆘</div>
+                        <div class="category-card-info">
+                            <h3>Ayuda</h3>
+                            <span>8 solicitudes</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #EC4899;">
+                        <div class="category-card-icon">📚</div>
+                        <div class="category-card-info">
+                            <h3>Libros</h3>
+                            <span>56 títulos</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #14B8A6;">
+                        <div class="category-card-icon">🎮</div>
+                        <div class="category-card-info">
+                            <h3>Ocio</h3>
+                            <span>19 items</span>
+                        </div>
+                    </div>
+                    <div class="category-card" style="--accent: #8B5CF6;">
+                        <div class="category-card-icon">👶</div>
+                        <div class="category-card-info">
+                            <h3>Infantil</h3>
+                            <span>41 items</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Post Screen -->
+            <section class="screen screen-add" id="screen-add">
+                <h1 class="screen-title">Nueva publicación</h1>
+                
+                <div class="post-type-selector">
+                    <button class="post-type active">
+                        <span class="post-type-icon">🎁</span>
+                        <span>Ofrezco</span>
+                    </button>
+                    <button class="post-type">
+                        <span class="post-type-icon">🙋</span>
+                        <span>Necesito</span>
+                    </button>
+                </div>
+
+                <form class="new-post-form">
+                    <div class="form-group">
+                        <label>Categoría</label>
+                        <select class="form-select">
+                            <option>🛠️ Herramientas</option>
+                            <option>🥕 Alimentos</option>
+                            <option>🚗 Transporte</option>
+                            <option>💼 Servicios</option>
+                            <option>🆘 Ayuda</option>
+                            <option>📚 Libros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Título</label>
+                        <input type="text" class="form-input" placeholder="¿Qué ofreces?">
+                    </div>
+                    <div class="form-group">
+                        <label>Descripción</label>
+                        <textarea class="form-textarea" placeholder="Añade detalles que puedan ser útiles..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Fotos (opcional)</label>
+                        <div class="photo-upload">
+                            <span class="photo-upload-icon">📷</span>
+                            <span>Añadir fotos</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-submit">Publicar</button>
+                </form>
+            </section>
+
+            <!-- Messages Screen -->
+            <section class="screen screen-messages" id="screen-messages">
+                <h1 class="screen-title">Mensajes</h1>
+                
+                <div class="messages-list">
+                    <div class="message-item unread">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Avatar" class="avatar">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <h3>Carlos Martín</h3>
+                                <span class="message-time">10:32</span>
+                            </div>
+                            <p>Perfecto, te lo dejo en el portal a las 18h 👍</p>
+                        </div>
+                        <span class="unread-badge">1</span>
+                    </div>
+                    <div class="message-item">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="Avatar" class="avatar">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <h3>Ana López</h3>
+                                <span class="message-time">Ayer</span>
+                            </div>
+                            <p>¡Gracias por los tomates! Estaban riquísimos</p>
+                        </div>
+                    </div>
+                    <div class="message-item">
+                        <img src="https://i.pravatar.cc/100?img=33" alt="Avatar" class="avatar">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <h3>Pedro Sánchez</h3>
+                                <span class="message-time">Mar</span>
+                            </div>
+                            <p>Quedamos en la puerta del garaje entonces</p>
+                        </div>
+                    </div>
+                    <div class="message-item">
+                        <img src="https://i.pravatar.cc/100?img=20" alt="Avatar" class="avatar">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <h3>María Torres</h3>
+                                <span class="message-time">Lun</span>
+                            </div>
+                            <p>Muchas gracias por tu ayuda con la...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Profile Screen -->
+            <section class="screen screen-profile" id="screen-profile">
+                <div class="profile-header">
+                    <div class="profile-cover"></div>
+                    <img src="https://i.pravatar.cc/150?img=32" alt="Avatar" class="profile-avatar">
+                    <h1 class="profile-name">María García <span class="verified">✓</span></h1>
+                    <p class="profile-location">📍 Barrio Salamanca, Madrid</p>
+                </div>
+
+                <div class="profile-stats">
+                    <div class="stat">
+                        <span class="stat-value">15</span>
+                        <span class="stat-label">Préstamos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">4.9 ⭐</span>
+                        <span class="stat-label">Valoración</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">2 años</span>
+                        <span class="stat-label">Miembro</span>
+                    </div>
+                </div>
+
+                <div class="time-bank">
+                    <div class="time-bank-header">
+                        <span class="time-bank-icon">⏱️</span>
+                        <span>Banco de Tiempo</span>
+                    </div>
+                    <div class="time-bank-balance">
+                        <span class="balance-value">+12h</span>
+                        <span class="balance-label">horas acumuladas</span>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h2>Mis publicaciones</h2>
+                    <div class="profile-posts-grid">
+                        <div class="profile-post-item" style="background: linear-gradient(135deg, #DC262620, #DC262610);">
+                            <span>🛠️</span>
+                            <p>Taladro</p>
+                        </div>
+                        <div class="profile-post-item" style="background: linear-gradient(135deg, #16A34A20, #16A34A10);">
+                            <span>🥕</span>
+                            <p>Calabacines</p>
+                        </div>
+                        <div class="profile-post-item" style="background: linear-gradient(135deg, #2563EB20, #2563EB10);">
+                            <span>🚗</span>
+                            <p>Viaje IKEA</p>
+                        </div>
+                        <div class="profile-post-item" style="background: linear-gradient(135deg, #9333EA20, #9333EA10);">
+                            <span>💼</span>
+                            <p>Clases inglés</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-edit-profile">Editar perfil</button>
+            </section>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-item active" data-screen="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Inicio</span>
+            </button>
+            <button class="nav-item" data-screen="explore">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-label">Explorar</span>
+            </button>
+            <button class="nav-item nav-item-add" data-screen="add">
+                <span class="nav-icon-add">+</span>
+            </button>
+            <button class="nav-item" data-screen="messages">
+                <span class="nav-icon">💬</span>
+                <span class="nav-label">Mensajes</span>
+                <span class="nav-badge">1</span>
+            </button>
+            <button class="nav-item" data-screen="profile">
+                <span class="nav-icon">👤</span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
